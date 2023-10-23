@@ -1,0 +1,17 @@
+@use 'sass:math';
+
+@mixin flex($justify, $align, $wrap) {
+	display: flex;
+
+	@if $justify != null {
+		justify-content: $justify;
+	}
+
+	@if $align != null {
+		align-items: $align;
+	}
+
+	@if $wrap != null {
+		flex-wrap: $wrap;
+	}
+}
