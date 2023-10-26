@@ -1,6 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 :root {
-    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
-
     --color-light: #FFFFFF;
     --color-dark: #170706;
     --color-grey: #959595;
@@ -10,5 +10,6 @@
     --color-blue-violet: #6B61BB;
     --color-dark-slate-blue: #2D3B58;
 
-    --primary-font: 'Open Sans', sans-serif;
+    --primary-font: 'Sofia Sans Extra Condensed', sans-serif;
+    --heading-font: 'DM Serif Display', serif;
 }

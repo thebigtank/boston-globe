@@ -1,0 +1,37 @@
+.block.header {
+    padding: rem(20) 0;
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .col {
+        display: flex;
+        align-items: center;
+
+        &:nth-child(1) {
+            gap: rem(10);
+        }
+    }
+
+    .hamburger {
+        display: inline-flex;
+    }
+
+    .logo {
+        object-fit: cover;
+    }
+
+    .news-title {
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: fluid(18, 24);
+    }
+
+    svg {
+        height: 20px;
+        width: 20px;
+    }
+}
